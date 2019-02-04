@@ -29,7 +29,7 @@ get_info("你好")
 @itchat.msg_register(itchat.content.TEXT)
 def auto_reply(msg):
     defaultReply = "我知道了"
-    realFriend = itchat.search_friends(name='爸爸')
+    realFriend = itchat.search_friends(name='青青子衿')
     realFriendsName = realFriend[0]['UserName']
     # 打印好友回复的信息
     print("message:%s"%msg['Text'])
